@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <link rel="stylesheet" href="css/estilosEjmp3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scriptTres.js"></script>
+</head>
+
+<body class="ejmp3">
+    <!-- Crea un input y 3 botones
+    - Añadir: Añadir a una lista el texto dado en el input, 
+    se debe comprobar si esta o no repetido.
+    - Eliminar: Eliminará de la lista el texto dado del input, sino existe se eliminará el usuario.
+    - Eliminar todos: Elimina todos los elementos de la lista -->
+    <div class="container" >
+
+        <div class="group" style="margin-top: 20vh;">
+
+            <input required="" type="text" id="name" class="input">
+            
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Ingrese Nombre</label>
+        </div> <br>
+        
+        <button id="add" style="margin-right: 1rem;">Aniadir</button> 
+        <button id="remove" style="margin-right: 1rem;">Eliminar</button> 
+        <button id="removeAll">Eliminar todos</button> <br> <br> <br>
+
+        <ul id="names">
+        </ul>
+    </div>
+</body>
+
+</html>

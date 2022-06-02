@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilosEjmp5.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Registro Usuario</h3>
+        <form action="#" id="frmRegistro">
+            <label for="email">Email: </label>
+            <input type="email" id="email"> <br>
+
+            <label for="clave">Contrasenia: </label>
+            <input type="password" id="clave"> <br>
+            <label for="claveRepetir">Contrasenia (repetir): </label>
+            <input type="password" id="claveRepetir">
+
+            <span class="error" id="obligatorio">Todos los campos son obligatorios.</span><br>
+            <span class="error" id="clavesNoIguales">Las contrasenias deben ser iguales</span> <br>
+            <input type="submit" value="enviar">
+        </form>
+        <p id="resultado"></p>
+        
+        <script src="js/scriptCinco.js"></script>
+    </div>
+</body>
+
+</html>
